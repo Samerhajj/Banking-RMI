@@ -1,5 +1,8 @@
 package Banker.client;
 
+import Banker.server.Account;
+import Banker.server.AccountList;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -21,10 +24,10 @@ private static BufferedReader brIn;
         }
         brIn= new BufferedReader(new InputStreamReader(System.in));
 
-        if(System.getSecurityManager()==null
-        {
-            System.setSecurityManager(new SecurityManager());
-        }
+//        if(System.getSecurityManager()==null)
+//        {
+//            System.setSecurityManager(new SecurityManager());
+//        }
         System.out.println("Welcome to the Bank Client.");
 
         int[] accounts;
